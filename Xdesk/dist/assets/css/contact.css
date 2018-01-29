@@ -1,0 +1,204 @@
+/* Card Styles */
+.card-section h3, .card-section  h3 a, .card-section p {
+  color: #4d4d4d}
+.card-section a:focus {
+  outline: none}
+
+/* Section Styles */
+.section-white, .section-gray {
+  padding: 1.5rem 0;
+  width: 100%}
+.section-white {
+  background-color: #fff;}
+.section-gray {
+  background-color: #fafafa}
+/* Medium and up */
+@media screen and (min-width: 40em) {
+  .section-white, .section-gray {
+    padding: 3rem 0}
+}
+
+/* Hero Banner */
+#contact-banner {
+  background-position: top right;
+  background-size: cover;
+  color: white;
+  min-height: 24rem;
+  padding-top: 1rem;
+  padding-left: 1rem}
+#contact-banner.image-gradient:before {
+  z-index: -1}
+#contact-banner h1, #contact-banner h4 {
+  margin-bottom: 2rem}
+#contact-banner h1 {
+  font-size: 3rem}
+#contact-banner h4 {
+  font-size: 1rem}
+/* Medium and up */
+@media screen and (min-width: 40em) {
+  #contact-banner {
+    min-height: 34rem;
+    padding-top: 12rem}
+  #contact-banner h1 {
+    font-size: 3rem}
+  #contact-banner h4 {
+    font-size: 1.2rem}
+}
+/* Large and up */
+@media screen and (min-width: 64em) {
+  #contact-banner {
+    min-height: 34rem;
+    padding-top: 6.25rem;
+    padding-left: 6.25rem}
+  #contact-banner h1 {
+    font-size: 4.375rem}
+  #contact-banner h4 {
+    font-size: 1.4rem}
+}
+
+/* Contact Select */
+#contact-select {
+  margin: 0 auto;
+  padding: 0 2.5rem;
+  max-width: 90rem}
+#contact-select .card {
+  cursor: pointer;
+  margin: .5rem 0;
+  padding: .5rem;
+  border: none;
+  background-color: #fafafa;
+  text-align: center;
+  transition: all .2s ease}
+#contact-select .card:hover {
+  background-color: #f0f0f0}
+#contact-select .card-section {
+  padding: 1rem 0 0 0}
+#contact-select h3, #contact-select p {
+  margin-bottom: .5rem}
+#contact-select h3 {
+  font-size: 1.5rem}
+#contact-select h3 .arrow {
+  margin: 0 .25rem .25rem -.25rem;
+  width: 1rem;
+  height: 1rem;
+  transition: all .1s ease}
+#contact-select .selected h3 .arrow {
+  transform: rotate(90deg)}
+#contact-select p {
+  font-size: .9rem}
+#contact-select img {
+  height: 2.5rem;
+  width: 2.5rem;
+  margin: 0 auto}
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  #contact-select {
+    padding: 0rem 1rem}
+}
+/* Medium and up */
+@media screen and (min-width: 40em) {
+  #contact-select .card {
+    height: 100%;
+    padding: 2.5rem 0rem;
+    margin: 0 .5rem}
+}
+
+/* Form Container */
+#form-container {
+  margin: 0 auto;
+  max-width: 52rem}
+#form-container h1, #form-container p {
+  text-align: center}
+#form-container p {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #808080}
+#contact-sales, #contact-customer, #contact-other {
+  display: none}
+#contact-sales.selected, #contact-customer.selected, #contact-other.selected {
+  display: block}
+
+/* Contact General */
+#contact-general > div {
+  background-color: #fafafa;
+  padding-bottom: 2rem}
+#contact-general h1 {
+  margin: 1.4rem 0 1.4rem 0}
+#contact-general h4 {
+  margin-bottom: .5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase}
+#contact-general .image {
+  min-height: 24rem;
+  max-width: 48rem;
+  background-position: 75% 50%;
+  background-size: cover;}
+/* Medium and up */
+@media screen and (min-width: 40em) {
+  #contact-general > div {
+    margin: 3rem 0 0 2rem}
+  #contact-general h1 {
+    margin: 0 0 3rem 0}
+  #contact-general .image {
+    margin: -2rem 0 0 -2rem}
+  #contact-general > .grid-x > .cell:last-child {
+    padding: 3rem 0 0 5rem}
+}
+/* Large and up */
+@media screen and (min-width: 64em) {
+  #contact-general > .grid-x > .cell:last-child > .grid-x > .cell:last-child {
+    padding-left: 1.5rem}
+}
+
+/* Footer Cards */
+#footer-cards .cell .card-image .card-section h3 {
+  margin: 3rem 0}
+#footer-cards h3 .arrow {
+  margin: 0 .25rem .25rem -.25rem;
+  width: 1rem;
+  height: 1rem}
+#footer-cards p {
+  font-size: .9rem}
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  #footer-cards img {
+    width: 100%}
+}
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  #footer-cards .cell .card-image .card-section h3 {
+    font-size: 1.3rem}
+}
+/* Large and up */
+@media screen and (min-width: 64em) {
+  #footer-cards {
+    margin: 4rem 3rem 3rem}
+  #footer-cards .cell .card-image .card-section h3 {
+    font-size: 1.5rem}
+}
+
+/* Iframe Styles */
+#contact-sales iframe {
+  height: 1191px}
+#contact-customer iframe {
+  height: 1296px}
+#contact-other iframe {
+  height: 1079px}
+@media screen and (min-width: 412px) {
+  #contact-sales iframe {
+    height: 1163px}
+  #contact-customer iframe {
+    height: 1268px}
+  #contact-other iframe {
+    height: 1046px}
+}
+@media screen and (min-width: 641px) {
+  #contact-sales iframe {
+    height: 978px}
+  #contact-customer iframe {
+    height: 1083px}
+  #contact-other iframe {
+    height: 750px}
+}
