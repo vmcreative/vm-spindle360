@@ -174,7 +174,9 @@
 /* Large and up */
 @media screen and (min-width: 64em) {
   #footer-cards {
-    margin: 4rem 3rem 3rem}
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    padding: 0 2.5rem}
   #footer-cards .cell .card-image .card-section h3 {
     font-size: 1.5rem}
 }
